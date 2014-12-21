@@ -1,0 +1,11 @@
+Tue Nov  4 22:31:56 UTC 2014: Stream 34 : Starting Refresh Stream 2...
+BEGIN
+CREATE TABLE
+COPY 15000
+CREATE INDEX
+ANALYZE
+DELETE 59677
+DELETE 15000
+COMMIT
+Tue Nov  4 22:32:27 UTC 2014: Stream 34 : Refresh Stream 2 completed.
+Stream 34 : Elapsed time for Refresh Stream 2 : 31 seconds

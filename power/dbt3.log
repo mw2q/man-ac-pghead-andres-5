@@ -1,0 +1,1482 @@
+2014-11-04 21:57:48 UTC [45120]: [1-1] user=,db=,client= LOG:  database system was shut down at 2014-11-04 21:57:46 UTC
+2014-11-04 21:57:48 UTC [45119]: [1-1] user=,db=,client= LOG:  database system is ready to accept connections
+2014-11-04 21:57:48 UTC [45124]: [1-1] user=,db=,client= LOG:  autovacuum launcher started
+2014-11-04 21:57:48 UTC [45128]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:48 UTC [45128]: [2-1] user=sekondquad,db=postgres,client=[local] LOG:  connection authorized: user=sekondquad database=postgres
+2014-11-04 21:57:48 UTC [45128]: [3-1] user=sekondquad,db=postgres,client=[local] LOG:  disconnection: session time: 0:00:00.009 user=sekondquad database=postgres host=[local]
+2014-11-04 21:57:48 UTC [45141]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:48 UTC [45142]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:48 UTC [45141]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:48 UTC [45142]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:48 UTC [45142]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER', CURRENT_TIMESTAMP);
+2014-11-04 21:57:48 UTC [45141]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: SHOW server_version_num;
+2014-11-04 21:57:48 UTC [45141]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.400 ms
+2014-11-04 21:57:48 UTC [45141]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.010 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:48 UTC [45142]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.246 ms
+2014-11-04 21:57:48 UTC [45142]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.011 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:48 UTC [45145]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:48 UTC [45145]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:48 UTC [45145]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: SELECT version();
+2014-11-04 21:57:48 UTC [45145]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.060 ms
+2014-11-04 21:57:48 UTC [45145]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:48 UTC [45149]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:48 UTC [45149]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:48 UTC [45149]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.RF1', CURRENT_TIMESTAMP);
+2014-11-04 21:57:48 UTC [45151]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:48 UTC [45151]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:48 UTC [45149]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.615 ms
+2014-11-04 21:57:48 UTC [45149]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:48 UTC [45151]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: SHOW ALL
+2014-11-04 21:57:48 UTC [45151]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.029 ms
+2014-11-04 21:57:48 UTC [45151]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:48 UTC [45155]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:48 UTC [45155]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:48 UTC [45156]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:49 UTC [45156]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:49 UTC [45155]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: SELECT nextval('dataset');
+2014-11-04 21:57:49 UTC [45155]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.668 ms
+2014-11-04 21:57:49 UTC [45156]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: SELECT tablename FROM pg_tables WHERE schemaname = 'public'ORDER BY tablename;
+2014-11-04 21:57:49 UTC [45155]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:49 UTC [45156]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.761 ms
+2014-11-04 21:57:49 UTC [45156]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.009 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:49 UTC [45159]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:49 UTC [45159]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:49 UTC [45159]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: SELECT indexname FROM pg_indexes WHERE schemaname = 'public' ORDER BY indexname;
+2014-11-04 21:57:49 UTC [45159]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 6.622 ms
+2014-11-04 21:57:49 UTC [45159]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.010 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:49 UTC [45166]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:49 UTC [45167]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:49 UTC [45168]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:49 UTC [45169]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:49 UTC [45170]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:49 UTC [45166]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:49 UTC [45168]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:49 UTC [45167]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:49 UTC [45170]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:49 UTC [45169]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:49 UTC [45166]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV, HEADER);
+2014-11-04 21:57:49 UTC [45168]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV, HEADER);
+2014-11-04 21:57:49 UTC [45169]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV, HEADER);
+2014-11-04 21:57:49 UTC [45170]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV, HEADER);
+2014-11-04 21:57:49 UTC [45167]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV, HEADER);
+2014-11-04 21:57:49 UTC [45168]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.500 ms
+2014-11-04 21:57:49 UTC [45168]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:49 UTC [45167]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.813 ms
+2014-11-04 21:57:49 UTC [45167]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.010 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:49 UTC [45170]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 10.411 ms
+2014-11-04 21:57:49 UTC [45170]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.014 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:49 UTC [45169]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 11.568 ms
+2014-11-04 21:57:49 UTC [45169]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.015 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:49 UTC [45166]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 13.160 ms
+2014-11-04 21:57:49 UTC [45166]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.016 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:57:55 UTC [45175]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:57:55 UTC [45175]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:57:55 UTC [45175]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 21:57:55 UTC [45175]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.248 ms
+2014-11-04 21:57:55 UTC [45175]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY lineitem
+	FROM '/home/sekondquad/dbt3/dss/lineitem.tbl.u2'
+	USING DELIMITERS '|';
+2014-11-04 21:58:02 UTC [45175]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 7520.660 ms
+2014-11-04 21:58:02 UTC [45175]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY orders
+	FROM '/home/sekondquad/dbt3/dss/orders.tbl.u2'
+	USING DELIMITERS '|';
+2014-11-04 21:58:02 UTC [45175]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 340.510 ms
+2014-11-04 21:58:02 UTC [45175]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 21:58:02 UTC [45175]: [10-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 15.374 ms
+2014-11-04 21:58:02 UTC [45175]: [11-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:07.881 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:02 UTC [45181]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:02 UTC [45181]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:02 UTC [45181]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.RF1';
+2014-11-04 21:58:02 UTC [45181]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.805 ms
+2014-11-04 21:58:02 UTC [45181]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:03 UTC [45189]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:03 UTC [45189]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:03 UTC [45189]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q14', CURRENT_TIMESTAMP);
+2014-11-04 21:58:03 UTC [45189]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.272 ms
+2014-11-04 21:58:03 UTC [45189]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:03 UTC [45191]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:03 UTC [45191]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:03 UTC [45191]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 21:58:03 UTC [45191]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.227 ms
+2014-11-04 21:58:03 UTC [45191]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		100.00 * sum(case
+			when p_type like 'PROMO%'
+				then l_extendedprice * (1 - l_discount)
+			else 0
+		end) / sum(l_extendedprice * (1 - l_discount)) as promo_revenue
+	from
+		lineitem,
+		part
+	where
+		l_partkey = p_partkey
+		and l_shipdate >= date '1997-05-01'
+		and l_shipdate < cast(date '1997-05-01' + interval '1 month' as date);
+2014-11-04 21:58:10 UTC [45191]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 7672.836 ms
+2014-11-04 21:58:10 UTC [45191]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 21:58:10 UTC [45191]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.133 ms
+2014-11-04 21:58:10 UTC [45191]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:07.677 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:10 UTC [45195]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:10 UTC [45195]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:10 UTC [45195]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q14';
+2014-11-04 21:58:10 UTC [45195]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.104 ms
+2014-11-04 21:58:10 UTC [45195]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:10 UTC [45201]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:10 UTC [45201]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:10 UTC [45201]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q2', CURRENT_TIMESTAMP);
+2014-11-04 21:58:10 UTC [45201]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.473 ms
+2014-11-04 21:58:10 UTC [45201]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.005 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:10 UTC [45203]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:10 UTC [45203]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:10 UTC [45203]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 21:58:10 UTC [45203]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.166 ms
+2014-11-04 21:58:10 UTC [45203]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		s_acctbal,
+		s_name,
+		n_name,
+		p_partkey,
+		p_mfgr,
+		s_address,
+		s_phone,
+		s_comment
+	from
+		part,
+		supplier,
+		partsupp,
+		nation,
+		region
+	where
+		p_partkey = ps_partkey
+		and s_suppkey = ps_suppkey
+		and p_size = 42
+		and p_type like '%STEEL'
+		and s_nationkey = n_nationkey
+		and n_regionkey = r_regionkey
+		and r_name = 'AMERICA'
+		and ps_supplycost = (
+			select
+				min(ps_supplycost)
+			from
+				partsupp,
+				supplier,
+				nation,
+				region
+			where
+				p_partkey = ps_partkey
+				and s_suppkey = ps_suppkey
+				and s_nationkey = n_nationkey
+				and n_regionkey = r_regionkey
+				and r_name = 'AMERICA'
+		)
+	order by
+		s_acctbal desc,
+		n_name,
+		s_name,
+		p_partkey
+	LIMIT 100;
+2014-11-04 21:58:17 UTC [45203]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 6796.509 ms
+2014-11-04 21:58:17 UTC [45203]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 21:58:17 UTC [45203]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.125 ms
+2014-11-04 21:58:17 UTC [45203]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:06.802 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:17 UTC [45206]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:17 UTC [45206]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:17 UTC [45206]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q2';
+2014-11-04 21:58:17 UTC [45206]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.564 ms
+2014-11-04 21:58:17 UTC [45206]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:17 UTC [45212]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:17 UTC [45212]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:17 UTC [45212]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q9', CURRENT_TIMESTAMP);
+2014-11-04 21:58:17 UTC [45212]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.375 ms
+2014-11-04 21:58:17 UTC [45212]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:17 UTC [45214]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:17 UTC [45214]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:17 UTC [45214]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 21:58:17 UTC [45214]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.232 ms
+2014-11-04 21:58:17 UTC [45214]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		nation,
+		o_year,
+		sum(amount) as sum_profit
+	from
+		(
+			select
+				n_name as nation,
+				extract(year from o_orderdate) as o_year,
+				l_extendedprice * (1 - l_discount) - ps_supplycost * l_quantity as amount
+			from
+				part,
+				supplier,
+				lineitem,
+				partsupp,
+				orders,
+				nation
+			where
+				s_suppkey = l_suppkey
+				and ps_suppkey = l_suppkey
+				and ps_partkey = l_partkey
+				and p_partkey = l_partkey
+				and o_orderkey = l_orderkey
+				and s_nationkey = n_nationkey
+				and p_name like '%ivory%'
+		) as profit
+	group by
+		nation,
+		o_year
+	order by
+		nation,
+		o_year desc;
+2014-11-04 21:58:49 UTC [45231]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:49 UTC [45231]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:49 UTC [45232]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:49 UTC [45234]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:49 UTC [45233]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:49 UTC [45232]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:49 UTC [45235]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:58:49 UTC [45234]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:49 UTC [45233]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:49 UTC [45231]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV);
+2014-11-04 21:58:49 UTC [45235]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:58:49 UTC [45232]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV);
+2014-11-04 21:58:49 UTC [45233]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV);
+2014-11-04 21:58:49 UTC [45234]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV);
+2014-11-04 21:58:49 UTC [45235]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV);
+2014-11-04 21:58:49 UTC [45232]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.789 ms
+2014-11-04 21:58:49 UTC [45232]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:49 UTC [45233]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.745 ms
+2014-11-04 21:58:49 UTC [45233]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:49 UTC [45231]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.849 ms
+2014-11-04 21:58:49 UTC [45231]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.019 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:49 UTC [45234]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.514 ms
+2014-11-04 21:58:49 UTC [45234]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.018 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:58:49 UTC [45235]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 13.885 ms
+2014-11-04 21:58:49 UTC [45235]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.017 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:49 UTC [45258]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:49 UTC [45259]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:49 UTC [45260]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:49 UTC [45258]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:49 UTC [45259]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:49 UTC [45261]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:49 UTC [45260]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:49 UTC [45261]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:49 UTC [45262]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:49 UTC [45260]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV);
+2014-11-04 21:59:49 UTC [45258]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV);
+2014-11-04 21:59:49 UTC [45262]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:49 UTC [45259]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV);
+2014-11-04 21:59:49 UTC [45261]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV);
+2014-11-04 21:59:49 UTC [45262]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV);
+2014-11-04 21:59:49 UTC [45261]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.393 ms
+2014-11-04 21:59:49 UTC [45261]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:49 UTC [45260]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.930 ms
+2014-11-04 21:59:49 UTC [45260]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.010 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:49 UTC [45258]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 10.204 ms
+2014-11-04 21:59:49 UTC [45258]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.015 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:49 UTC [45259]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.514 ms
+2014-11-04 21:59:49 UTC [45259]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.019 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:49 UTC [45262]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 13.798 ms
+2014-11-04 21:59:49 UTC [45262]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.017 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:51 UTC [45214]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 93858.604 ms
+2014-11-04 21:59:51 UTC [45214]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 21:59:51 UTC [45214]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.316 ms
+2014-11-04 21:59:51 UTC [45214]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:01:33.865 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:51 UTC [45264]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:51 UTC [45264]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:51 UTC [45264]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q9';
+2014-11-04 21:59:51 UTC [45264]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.180 ms
+2014-11-04 21:59:51 UTC [45264]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:51 UTC [45270]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:51 UTC [45270]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:51 UTC [45270]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q20', CURRENT_TIMESTAMP);
+2014-11-04 21:59:51 UTC [45270]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.567 ms
+2014-11-04 21:59:51 UTC [45270]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:51 UTC [45272]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:51 UTC [45272]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:51 UTC [45272]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 21:59:51 UTC [45272]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.173 ms
+2014-11-04 21:59:51 UTC [45272]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		s_name,
+		s_address
+	from
+		supplier,
+		nation
+	where
+		s_suppkey in (
+			select
+				distinct (ps_suppkey)
+			from
+				partsupp,
+				part
+			where
+				ps_partkey=p_partkey
+				and p_name like 'olive%'
+				and ps_availqty > (
+					select
+						0.5 * sum(l_quantity)
+					from
+						lineitem
+					where
+						l_partkey = ps_partkey
+						and l_suppkey = ps_suppkey
+						and l_shipdate >= '1996-01-01'
+						and l_shipdate < cast(date '1996-01-01' + interval '1 year' as date)
+				)
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'CANADA'
+	order by
+		s_name;
+2014-11-04 21:59:59 UTC [45272]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 7667.301 ms
+2014-11-04 21:59:59 UTC [45272]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 21:59:59 UTC [45272]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.111 ms
+2014-11-04 21:59:59 UTC [45272]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:07.672 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:59 UTC [45277]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:59 UTC [45277]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:59 UTC [45277]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q20';
+2014-11-04 21:59:59 UTC [45277]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.168 ms
+2014-11-04 21:59:59 UTC [45277]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:59 UTC [45283]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:59 UTC [45283]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:59 UTC [45283]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q6', CURRENT_TIMESTAMP);
+2014-11-04 21:59:59 UTC [45283]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.207 ms
+2014-11-04 21:59:59 UTC [45283]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 21:59:59 UTC [45285]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 21:59:59 UTC [45285]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 21:59:59 UTC [45285]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 21:59:59 UTC [45285]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.181 ms
+2014-11-04 21:59:59 UTC [45285]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		sum(l_extendedprice * l_discount) as revenue
+	from
+		lineitem
+	where
+		l_shipdate >= date '1996-01-01'
+		and l_shipdate < cast(date '1996-01-01' + interval '1 year' as date)
+		and l_discount between 0.04 - 0.01 and 0.04 + 0.01
+		and l_quantity < 25;
+2014-11-04 22:00:12 UTC [45285]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 13443.177 ms
+2014-11-04 22:00:12 UTC [45285]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:00:12 UTC [45285]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.117 ms
+2014-11-04 22:00:12 UTC [45285]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:13.448 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:12 UTC [45406]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:12 UTC [45406]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:12 UTC [45406]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q6';
+2014-11-04 22:00:12 UTC [45406]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.322 ms
+2014-11-04 22:00:12 UTC [45406]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:12 UTC [45412]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:12 UTC [45412]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:12 UTC [45412]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q17', CURRENT_TIMESTAMP);
+2014-11-04 22:00:12 UTC [45412]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.228 ms
+2014-11-04 22:00:12 UTC [45412]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:12 UTC [45414]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:12 UTC [45414]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:12 UTC [45414]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:00:12 UTC [45414]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.185 ms
+2014-11-04 22:00:12 UTC [45414]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		sum(l_extendedprice) / 7.0 as avg_yearly
+	from
+		lineitem,
+		part
+	where
+		p_partkey = l_partkey
+		and p_brand = 'Brand#51'
+		and p_container = 'LG CASE'
+		and l_quantity < (
+			select
+				0.2 * avg(l_quantity)
+			from
+				lineitem
+			where
+				l_partkey = p_partkey
+		);
+2014-11-04 22:00:13 UTC [45414]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 513.460 ms
+2014-11-04 22:00:13 UTC [45414]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:00:13 UTC [45414]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.112 ms
+2014-11-04 22:00:13 UTC [45414]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.518 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:13 UTC [45416]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:13 UTC [45416]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:13 UTC [45416]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q17';
+2014-11-04 22:00:13 UTC [45416]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.748 ms
+2014-11-04 22:00:13 UTC [45416]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:13 UTC [45422]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:13 UTC [45422]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:13 UTC [45422]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q18', CURRENT_TIMESTAMP);
+2014-11-04 22:00:13 UTC [45422]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.591 ms
+2014-11-04 22:00:13 UTC [45422]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.005 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:13 UTC [45424]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:13 UTC [45424]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:13 UTC [45424]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:00:13 UTC [45424]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.181 ms
+2014-11-04 22:00:13 UTC [45424]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		c_name,
+		c_custkey,
+		o_orderkey,
+		o_orderdate,
+		o_totalprice,
+		sum(l_quantity)
+	from
+		customer,
+		orders,
+		lineitem
+	where
+		o_orderkey in (
+			select
+				l_orderkey
+			from
+				lineitem
+			group by
+				l_orderkey having
+					sum(l_quantity) > 312
+		)
+		and c_custkey = o_custkey
+		and o_orderkey = l_orderkey
+	group by
+		c_name,
+		c_custkey,
+		o_orderkey,
+		o_orderdate,
+		o_totalprice
+	order by
+		o_totalprice desc,
+		o_orderdate
+	LIMIT 100;
+2014-11-04 22:00:49 UTC [45440]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:49 UTC [45441]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:49 UTC [45442]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:49 UTC [45440]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:49 UTC [45442]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:49 UTC [45441]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:49 UTC [45443]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:49 UTC [45440]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV);
+2014-11-04 22:00:49 UTC [45444]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:00:49 UTC [45442]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:00:49 UTC [45441]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV);
+2014-11-04 22:00:49 UTC [45443]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:49 UTC [45444]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:00:49 UTC [45444]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV);
+2014-11-04 22:00:49 UTC [45443]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:00:49 UTC [45440]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.074 ms
+2014-11-04 22:00:49 UTC [45440]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:49 UTC [45441]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.369 ms
+2014-11-04 22:00:49 UTC [45441]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.009 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:49 UTC [45443]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 10.578 ms
+2014-11-04 22:00:49 UTC [45442]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 13.577 ms
+2014-11-04 22:00:49 UTC [45443]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.014 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:49 UTC [45442]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.015 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:00:49 UTC [45444]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 13.940 ms
+2014-11-04 22:00:49 UTC [45444]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.016 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:21 UTC [45424]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 68393.973 ms
+2014-11-04 22:01:21 UTC [45424]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:01:21 UTC [45424]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.130 ms
+2014-11-04 22:01:21 UTC [45424]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:01:08.399 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:21 UTC [45457]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:21 UTC [45457]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:21 UTC [45457]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q18';
+2014-11-04 22:01:21 UTC [45457]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.554 ms
+2014-11-04 22:01:21 UTC [45457]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:21 UTC [45463]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:21 UTC [45463]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:21 UTC [45463]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q8', CURRENT_TIMESTAMP);
+2014-11-04 22:01:21 UTC [45463]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.512 ms
+2014-11-04 22:01:21 UTC [45463]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:21 UTC [45465]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:21 UTC [45465]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:21 UTC [45465]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:01:21 UTC [45465]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.205 ms
+2014-11-04 22:01:21 UTC [45465]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		o_year,
+		sum(case
+			when nation = 'JAPAN' then volume
+			else 0
+		end) / sum(volume) as mkt_share
+	from
+		(
+			select
+				extract(year from o_orderdate) as o_year,
+				l_extendedprice * (1 - l_discount) as volume,
+				n2.n_name as nation
+			from
+				part,
+				supplier,
+				lineitem,
+				orders,
+				customer,
+				nation n1,
+				nation n2,
+				region
+			where
+				p_partkey = l_partkey
+				and s_suppkey = l_suppkey
+				and l_orderkey = o_orderkey
+				and o_custkey = c_custkey
+				and c_nationkey = n1.n_nationkey
+				and n1.n_regionkey = r_regionkey
+				and r_name = 'ASIA'
+				and s_nationkey = n2.n_nationkey
+				and o_orderdate between date '1995-01-01' and date '1996-12-31'
+				and p_type = 'MEDIUM PLATED BRASS'
+		) as all_nations
+	group by
+		o_year
+	order by
+		o_year;
+2014-11-04 22:01:28 UTC [45465]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 7037.685 ms
+2014-11-04 22:01:28 UTC [45465]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:01:28 UTC [45465]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.121 ms
+2014-11-04 22:01:28 UTC [45465]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:07.044 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:28 UTC [45468]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:28 UTC [45468]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:28 UTC [45468]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q8';
+2014-11-04 22:01:28 UTC [45468]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.104 ms
+2014-11-04 22:01:28 UTC [45468]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.009 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:28 UTC [45474]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:28 UTC [45474]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:28 UTC [45474]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q21', CURRENT_TIMESTAMP);
+2014-11-04 22:01:28 UTC [45474]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.200 ms
+2014-11-04 22:01:28 UTC [45474]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:28 UTC [45476]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:28 UTC [45476]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:28 UTC [45476]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:01:28 UTC [45476]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.179 ms
+2014-11-04 22:01:28 UTC [45476]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'MOROCCO'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2014-11-04 22:01:49 UTC [45488]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:49 UTC [45489]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:49 UTC [45490]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:49 UTC [45488]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:49 UTC [45491]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:49 UTC [45489]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:49 UTC [45492]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:01:49 UTC [45491]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:49 UTC [45490]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:49 UTC [45492]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:01:49 UTC [45488]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV);
+2014-11-04 22:01:49 UTC [45489]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV);
+2014-11-04 22:01:49 UTC [45491]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:01:49 UTC [45490]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:01:49 UTC [45492]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV);
+2014-11-04 22:01:49 UTC [45492]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.629 ms
+2014-11-04 22:01:49 UTC [45492]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:49 UTC [45488]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 6.562 ms
+2014-11-04 22:01:49 UTC [45488]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.011 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:49 UTC [45491]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 8.859 ms
+2014-11-04 22:01:49 UTC [45491]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.012 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:49 UTC [45489]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.223 ms
+2014-11-04 22:01:49 UTC [45489]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.018 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:01:49 UTC [45490]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 15.405 ms
+2014-11-04 22:01:49 UTC [45490]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.020 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:07 UTC [45476]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 38603.526 ms
+2014-11-04 22:02:07 UTC [45476]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:02:07 UTC [45476]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.121 ms
+2014-11-04 22:02:07 UTC [45476]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:38.609 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:07 UTC [45499]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:07 UTC [45499]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:07 UTC [45499]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q21';
+2014-11-04 22:02:07 UTC [45499]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.838 ms
+2014-11-04 22:02:07 UTC [45499]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:07 UTC [45505]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:07 UTC [45505]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:07 UTC [45505]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q13', CURRENT_TIMESTAMP);
+2014-11-04 22:02:07 UTC [45505]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.534 ms
+2014-11-04 22:02:07 UTC [45505]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:07 UTC [45507]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:07 UTC [45507]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:07 UTC [45507]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:02:07 UTC [45507]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.189 ms
+2014-11-04 22:02:07 UTC [45507]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		c_count,
+		count(*) as custdist
+	from
+		(
+			select
+				c_custkey,
+				count(o_orderkey)
+			from
+				customer left outer join orders on
+					c_custkey = o_custkey
+					and o_comment not like '%express%deposits%'
+			group by
+				c_custkey
+		) as c_orders (c_custkey, c_count)
+	group by
+		c_count
+	order by
+		custdist desc,
+		c_count desc;
+2014-11-04 22:02:32 UTC [45507]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 25053.767 ms
+2014-11-04 22:02:32 UTC [45507]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:02:32 UTC [45507]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.112 ms
+2014-11-04 22:02:32 UTC [45507]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:25.058 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:32 UTC [45517]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:32 UTC [45517]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:32 UTC [45517]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q13';
+2014-11-04 22:02:32 UTC [45517]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.757 ms
+2014-11-04 22:02:32 UTC [45517]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:32 UTC [45523]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:32 UTC [45523]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:32 UTC [45523]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q3', CURRENT_TIMESTAMP);
+2014-11-04 22:02:32 UTC [45523]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.551 ms
+2014-11-04 22:02:32 UTC [45523]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.005 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:32 UTC [45525]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:32 UTC [45525]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:32 UTC [45525]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:02:32 UTC [45525]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.167 ms
+2014-11-04 22:02:32 UTC [45525]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		l_orderkey,
+		sum(l_extendedprice * (1 - l_discount)) as revenue,
+		o_orderdate,
+		o_shippriority
+	from
+		customer,
+		orders,
+		lineitem
+	where
+		c_mktsegment = 'BUILDING'
+		and c_custkey = o_custkey
+		and l_orderkey = o_orderkey
+		and o_orderdate < date '1995-03-11'
+		and l_shipdate > date '1995-03-11'
+	group by
+		l_orderkey,
+		o_orderdate,
+		o_shippriority
+	order by
+		revenue desc,
+		o_orderdate
+	LIMIT 10;
+2014-11-04 22:02:49 UTC [45535]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:49 UTC [45535]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:49 UTC [45536]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:49 UTC [45536]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:49 UTC [45535]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV);
+2014-11-04 22:02:49 UTC [45539]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:49 UTC [45536]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:02:49 UTC [45539]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:49 UTC [45537]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:49 UTC [45539]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV);
+2014-11-04 22:02:49 UTC [45537]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:49 UTC [45535]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.146 ms
+2014-11-04 22:02:49 UTC [45537]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV);
+2014-11-04 22:02:49 UTC [45535]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.009 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:49 UTC [45538]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:02:49 UTC [45538]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:02:49 UTC [45538]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:02:49 UTC [45539]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.930 ms
+2014-11-04 22:02:49 UTC [45539]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:49 UTC [45536]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.218 ms
+2014-11-04 22:02:49 UTC [45536]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.017 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:49 UTC [45538]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 9.521 ms
+2014-11-04 22:02:49 UTC [45538]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.012 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:02:49 UTC [45537]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 12.507 ms
+2014-11-04 22:02:49 UTC [45537]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.015 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:00 UTC [45525]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 28351.962 ms
+2014-11-04 22:03:00 UTC [45525]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:03:00 UTC [45525]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.119 ms
+2014-11-04 22:03:00 UTC [45525]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:28.356 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:00 UTC [45546]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:00 UTC [45546]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:00 UTC [45546]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q3';
+2014-11-04 22:03:00 UTC [45546]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.392 ms
+2014-11-04 22:03:00 UTC [45546]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:00 UTC [45553]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:00 UTC [45553]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:00 UTC [45553]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q22', CURRENT_TIMESTAMP);
+2014-11-04 22:03:00 UTC [45553]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.487 ms
+2014-11-04 22:03:00 UTC [45553]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:00 UTC [45555]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:00 UTC [45555]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:00 UTC [45555]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:03:00 UTC [45555]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.199 ms
+2014-11-04 22:03:00 UTC [45555]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		cntrycode,
+		count(*) as numcust,
+		sum(c_acctbal) as totacctbal
+	from
+		(
+			select
+				substr(c_phone, 1, 2) as cntrycode,
+				c_acctbal
+			from
+				customer
+			where
+				substr(c_phone, 1, 2) in
+					('13', '22', '15', '19', '20', '14', '33')
+				and c_acctbal > (
+					select
+						avg(c_acctbal)
+					from
+						customer
+					where
+						c_acctbal > 0.00
+						and substr(c_phone, 1, 2) in
+							('13', '22', '15', '19', '20', '14', '33')
+				)
+				and not exists (
+					select
+						*
+					from
+						orders
+					where
+						o_custkey = c_custkey
+				)
+		) as vip
+	group by
+		cntrycode
+	order by
+		cntrycode;
+2014-11-04 22:03:09 UTC [45555]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 8752.124 ms
+2014-11-04 22:03:09 UTC [45555]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:03:09 UTC [45555]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.153 ms
+2014-11-04 22:03:09 UTC [45555]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:08.758 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:09 UTC [45559]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:09 UTC [45559]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:09 UTC [45559]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q22';
+2014-11-04 22:03:09 UTC [45559]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.063 ms
+2014-11-04 22:03:09 UTC [45559]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:09 UTC [45565]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:09 UTC [45565]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:09 UTC [45565]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q16', CURRENT_TIMESTAMP);
+2014-11-04 22:03:09 UTC [45565]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.311 ms
+2014-11-04 22:03:09 UTC [45565]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:09 UTC [45567]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:09 UTC [45567]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:09 UTC [45567]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:03:09 UTC [45567]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.207 ms
+2014-11-04 22:03:09 UTC [45567]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		p_brand,
+		p_type,
+		p_size,
+		count(distinct ps_suppkey) as supplier_cnt
+	from
+		partsupp,
+		part
+	where
+		p_partkey = ps_partkey
+		and p_brand <> 'Brand#55'
+		and p_type not like 'STANDARD ANODIZED%'
+		and p_size in (11, 32, 33, 10, 26, 12, 20, 21)
+		and ps_suppkey not in (
+			select
+				s_suppkey
+			from
+				supplier
+			where
+				s_comment like '%Customer%Complaints%'
+		)
+	group by
+		p_brand,
+		p_type,
+		p_size
+	order by
+		supplier_cnt desc,
+		p_brand,
+		p_type,
+		p_size;
+2014-11-04 22:03:18 UTC [45567]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 9159.574 ms
+2014-11-04 22:03:18 UTC [45567]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:03:18 UTC [45567]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.116 ms
+2014-11-04 22:03:18 UTC [45567]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:09.164 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:18 UTC [45571]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:18 UTC [45571]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:18 UTC [45571]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q16';
+2014-11-04 22:03:18 UTC [45571]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.726 ms
+2014-11-04 22:03:18 UTC [45571]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:18 UTC [45577]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:18 UTC [45577]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:18 UTC [45577]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q4', CURRENT_TIMESTAMP);
+2014-11-04 22:03:18 UTC [45577]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.579 ms
+2014-11-04 22:03:18 UTC [45577]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.005 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:18 UTC [45579]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:18 UTC [45579]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:18 UTC [45579]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:03:18 UTC [45579]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.165 ms
+2014-11-04 22:03:18 UTC [45579]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		o_orderpriority,
+		count(*) as order_count
+	from
+		orders
+	where
+		o_orderdate >= date '1994-08-01'
+		and o_orderdate < cast(date '1994-08-01' + interval '3 month' as date)
+		and exists (
+			select
+				*
+			from
+				lineitem
+			where
+				l_orderkey = o_orderkey
+				and l_commitdate < l_receiptdate
+		)
+	group by
+		o_orderpriority
+	order by
+		o_orderpriority;
+2014-11-04 22:03:28 UTC [45579]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 9152.224 ms
+2014-11-04 22:03:28 UTC [45579]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:03:28 UTC [45579]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.115 ms
+2014-11-04 22:03:28 UTC [45579]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:09.156 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:28 UTC [45583]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:28 UTC [45583]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:28 UTC [45583]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q4';
+2014-11-04 22:03:28 UTC [45583]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.748 ms
+2014-11-04 22:03:28 UTC [45583]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:28 UTC [45589]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:28 UTC [45589]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:28 UTC [45589]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q11', CURRENT_TIMESTAMP);
+2014-11-04 22:03:28 UTC [45589]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.735 ms
+2014-11-04 22:03:28 UTC [45589]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:28 UTC [45591]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:28 UTC [45591]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:28 UTC [45591]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:03:28 UTC [45591]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.231 ms
+2014-11-04 22:03:28 UTC [45591]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		ps_partkey,
+		sum(ps_supplycost * ps_availqty) as value
+	from
+		partsupp,
+		supplier,
+		nation
+	where
+		ps_suppkey = s_suppkey
+		and s_nationkey = n_nationkey
+		and n_name = 'EGYPT'
+	group by
+		ps_partkey having
+			sum(ps_supplycost * ps_availqty) > (
+				select
+					sum(ps_supplycost * ps_availqty) * 0.0000100000
+				from
+					partsupp,
+					supplier,
+					nation
+				where
+					ps_suppkey = s_suppkey
+					and s_nationkey = n_nationkey
+					and n_name = 'EGYPT'
+			)
+	order by
+		value desc;
+2014-11-04 22:03:30 UTC [45591]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2512.877 ms
+2014-11-04 22:03:30 UTC [45591]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:03:30 UTC [45591]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.118 ms
+2014-11-04 22:03:30 UTC [45591]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:02.518 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:30 UTC [45595]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:30 UTC [45595]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:30 UTC [45595]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q11';
+2014-11-04 22:03:30 UTC [45595]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.755 ms
+2014-11-04 22:03:30 UTC [45595]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:30 UTC [45601]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:30 UTC [45601]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:30 UTC [45601]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q15', CURRENT_TIMESTAMP);
+2014-11-04 22:03:30 UTC [45601]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.570 ms
+2014-11-04 22:03:30 UTC [45601]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:30 UTC [45603]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:30 UTC [45603]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:30 UTC [45603]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:03:30 UTC [45603]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.166 ms
+2014-11-04 22:03:30 UTC [45603]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: create or replace view revenue0 (supplier_no, total_revenue) as
+		select
+			l_suppkey,
+			sum(l_extendedprice * (1 - l_discount))
+		from
+			lineitem
+		where
+			l_shipdate >= '1996-10-01'
+			and l_shipdate < date'1996-10-01' + interval '90 days'
+		group by
+			l_suppkey;
+2014-11-04 22:03:30 UTC [45603]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 9.466 ms
+2014-11-04 22:03:30 UTC [45603]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		s_suppkey,
+		s_name,
+		s_address,
+		s_phone,
+		total_revenue
+	from
+		supplier,
+		revenue0
+	where
+		s_suppkey = supplier_no
+		and total_revenue = (
+			select
+				max(total_revenue)
+			from
+				revenue0
+		)
+	order by
+		s_suppkey;
+2014-11-04 22:03:47 UTC [45603]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 16341.218 ms
+2014-11-04 22:03:47 UTC [45603]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: drop view revenue0;
+2014-11-04 22:03:47 UTC [45603]: [10-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.870 ms
+2014-11-04 22:03:47 UTC [45603]: [11-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:03:47 UTC [45603]: [12-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.373 ms
+2014-11-04 22:03:47 UTC [45603]: [13-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:16.357 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:47 UTC [45607]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:47 UTC [45607]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:47 UTC [45607]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q15';
+2014-11-04 22:03:47 UTC [45607]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.686 ms
+2014-11-04 22:03:47 UTC [45607]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:47 UTC [45613]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:47 UTC [45613]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:47 UTC [45613]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q1', CURRENT_TIMESTAMP);
+2014-11-04 22:03:47 UTC [45613]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.535 ms
+2014-11-04 22:03:47 UTC [45613]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.005 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:47 UTC [45615]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:47 UTC [45615]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:47 UTC [45615]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:03:47 UTC [45615]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.203 ms
+2014-11-04 22:03:47 UTC [45615]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		l_returnflag,
+		l_linestatus,
+		sum(l_quantity) as sum_qty,
+		sum(l_extendedprice) as sum_base_price,
+		sum(l_extendedprice * (1 - l_discount)) as sum_disc_price,
+		sum(l_extendedprice * (1 - l_discount) * (1 + l_tax)) as sum_charge,
+		avg(l_quantity) as avg_qty,
+		avg(l_extendedprice) as avg_price,
+		avg(l_discount) as avg_disc,
+		count(*) as count_order
+	from
+		lineitem
+	where
+		l_shipdate <= date '1998-12-01' - interval '98 days'
+	group by
+		l_returnflag,
+		l_linestatus
+	order by
+		l_returnflag,
+		l_linestatus;
+2014-11-04 22:03:49 UTC [45623]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:49 UTC [45624]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:49 UTC [45625]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:49 UTC [45626]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:49 UTC [45623]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:49 UTC [45624]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:49 UTC [45625]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:49 UTC [45626]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:49 UTC [45627]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:03:49 UTC [45627]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:03:49 UTC [45623]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV);
+2014-11-04 22:03:49 UTC [45624]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:03:49 UTC [45625]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV);
+2014-11-04 22:03:49 UTC [45627]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:03:49 UTC [45626]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV);
+2014-11-04 22:03:49 UTC [45626]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.724 ms
+2014-11-04 22:03:49 UTC [45626]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:49 UTC [45625]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.757 ms
+2014-11-04 22:03:49 UTC [45625]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.010 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:49 UTC [45627]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 8.648 ms
+2014-11-04 22:03:49 UTC [45627]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.012 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:49 UTC [45624]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.240 ms
+2014-11-04 22:03:49 UTC [45624]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.018 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:03:49 UTC [45623]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.750 ms
+2014-11-04 22:03:49 UTC [45623]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.019 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:04:49 UTC [45650]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:04:49 UTC [45651]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:04:49 UTC [45653]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:04:49 UTC [45652]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:04:49 UTC [45650]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:04:49 UTC [45651]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:04:49 UTC [45654]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:04:49 UTC [45652]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:04:49 UTC [45653]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:04:49 UTC [45654]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:04:49 UTC [45650]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV);
+2014-11-04 22:04:49 UTC [45651]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:04:49 UTC [45652]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:04:49 UTC [45653]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV);
+2014-11-04 22:04:49 UTC [45654]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV);
+2014-11-04 22:04:49 UTC [45653]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.528 ms
+2014-11-04 22:04:49 UTC [45653]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.009 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:04:49 UTC [45654]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.860 ms
+2014-11-04 22:04:49 UTC [45654]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.009 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:04:49 UTC [45652]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 10.296 ms
+2014-11-04 22:04:49 UTC [45652]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.013 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:04:49 UTC [45651]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 11.964 ms
+2014-11-04 22:04:49 UTC [45651]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.016 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:04:49 UTC [45650]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.511 ms
+2014-11-04 22:04:49 UTC [45650]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.019 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:06 UTC [45615]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 79369.455 ms
+2014-11-04 22:05:06 UTC [45615]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:05:06 UTC [45615]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.542 ms
+2014-11-04 22:05:06 UTC [45615]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:01:19.375 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:06 UTC [45667]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:06 UTC [45667]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:06 UTC [45667]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q1';
+2014-11-04 22:05:06 UTC [45667]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.758 ms
+2014-11-04 22:05:06 UTC [45667]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:06 UTC [45673]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:06 UTC [45673]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:06 UTC [45673]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q10', CURRENT_TIMESTAMP);
+2014-11-04 22:05:06 UTC [45673]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.503 ms
+2014-11-04 22:05:06 UTC [45673]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:06 UTC [45675]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:06 UTC [45675]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:06 UTC [45675]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:05:06 UTC [45675]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.216 ms
+2014-11-04 22:05:06 UTC [45675]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		c_custkey,
+		c_name,
+		sum(l_extendedprice * (1 - l_discount)) as revenue,
+		c_acctbal,
+		n_name,
+		c_address,
+		c_phone,
+		c_comment
+	from
+		customer,
+		orders,
+		lineitem,
+		nation
+	where
+		c_custkey = o_custkey
+		and l_orderkey = o_orderkey
+		and o_orderdate >= date '1994-05-01'
+		and o_orderdate < cast(date '1994-05-01' + interval '3 month' as date)
+		and l_returnflag = 'R'
+		and c_nationkey = n_nationkey
+	group by
+		c_custkey,
+		c_name,
+		c_acctbal,
+		c_phone,
+		n_name,
+		c_address,
+		c_comment
+	order by
+		revenue desc
+	LIMIT 20;
+2014-11-04 22:05:32 UTC [45675]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 26463.958 ms
+2014-11-04 22:05:32 UTC [45675]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:05:32 UTC [45675]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.574 ms
+2014-11-04 22:05:32 UTC [45675]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:26.470 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:32 UTC [45686]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:32 UTC [45686]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:32 UTC [45686]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q10';
+2014-11-04 22:05:32 UTC [45686]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.011 ms
+2014-11-04 22:05:32 UTC [45686]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:32 UTC [45692]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:32 UTC [45692]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:32 UTC [45692]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q19', CURRENT_TIMESTAMP);
+2014-11-04 22:05:32 UTC [45692]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.036 ms
+2014-11-04 22:05:32 UTC [45692]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.005 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:32 UTC [45694]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:32 UTC [45694]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:32 UTC [45694]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:05:32 UTC [45694]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.166 ms
+2014-11-04 22:05:32 UTC [45694]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		sum(l_extendedprice* (1 - l_discount)) as revenue
+	from
+		lineitem,
+		part
+	where
+		(
+			p_partkey = l_partkey
+			and p_brand = 'Brand#24'
+			and p_container in ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')
+			and l_quantity >= 4 and l_quantity <= 4+10
+			and p_size between 1 and 5
+			and l_shipmode in ('AIR', 'AIR REG')
+			and l_shipinstruct = 'DELIVER IN PERSON'
+		)
+		or
+		(
+			p_partkey = l_partkey
+			and p_brand = 'Brand#41'
+			and p_container in ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')
+			and l_quantity >= 13 and l_quantity <= 13+10
+			and p_size between 1 and 10
+			and l_shipmode in ('AIR', 'AIR REG')
+			and l_shipinstruct = 'DELIVER IN PERSON'
+		)
+		or
+		(
+			p_partkey = l_partkey
+			and p_brand = 'Brand#31'
+			and p_container in ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')
+			and l_quantity >= 22 and l_quantity <= 22+10
+			and p_size between 1 and 15
+			and l_shipmode in ('AIR', 'AIR REG')
+			and l_shipinstruct = 'DELIVER IN PERSON'
+		);
+2014-11-04 22:05:33 UTC [45694]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 564.008 ms
+2014-11-04 22:05:33 UTC [45694]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:05:33 UTC [45694]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.107 ms
+2014-11-04 22:05:33 UTC [45694]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.569 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:33 UTC [45696]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:33 UTC [45696]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:33 UTC [45696]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q19';
+2014-11-04 22:05:33 UTC [45696]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.606 ms
+2014-11-04 22:05:33 UTC [45696]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:33 UTC [45702]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:33 UTC [45702]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:33 UTC [45702]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q5', CURRENT_TIMESTAMP);
+2014-11-04 22:05:33 UTC [45702]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 2.576 ms
+2014-11-04 22:05:33 UTC [45702]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:33 UTC [45704]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:33 UTC [45704]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:33 UTC [45704]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:05:33 UTC [45704]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.188 ms
+2014-11-04 22:05:33 UTC [45704]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		n_name,
+		sum(l_extendedprice * (1 - l_discount)) as revenue
+	from
+		customer,
+		orders,
+		lineitem,
+		supplier,
+		nation,
+		region
+	where
+		c_custkey = o_custkey
+		and l_orderkey = o_orderkey
+		and l_suppkey = s_suppkey
+		and c_nationkey = s_nationkey
+		and s_nationkey = n_nationkey
+		and n_regionkey = r_regionkey
+		and r_name = 'ASIA'
+		and o_orderdate >= date '1996-01-01'
+		and o_orderdate < date '1996-01-01' + interval '1 year'
+	group by
+		n_name
+	order by
+		revenue desc;
+2014-11-04 22:05:46 UTC [45704]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 12488.752 ms
+2014-11-04 22:05:46 UTC [45704]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:05:46 UTC [45704]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.122 ms
+2014-11-04 22:05:46 UTC [45704]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:12.494 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:46 UTC [45708]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:46 UTC [45708]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:46 UTC [45708]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q5';
+2014-11-04 22:05:46 UTC [45708]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.670 ms
+2014-11-04 22:05:46 UTC [45708]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:46 UTC [45714]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:46 UTC [45714]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:46 UTC [45714]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q7', CURRENT_TIMESTAMP);
+2014-11-04 22:05:46 UTC [45714]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.545 ms
+2014-11-04 22:05:46 UTC [45714]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:46 UTC [45716]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:46 UTC [45716]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:46 UTC [45716]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:05:46 UTC [45716]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.166 ms
+2014-11-04 22:05:46 UTC [45716]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		supp_nation,
+		cust_nation,
+		l_year,
+		sum(volume) as revenue
+	from
+		(
+			select
+				n1.n_name as supp_nation,
+				n2.n_name as cust_nation,
+				extract(year from l_shipdate) as l_year,
+				l_extendedprice * (1 - l_discount) as volume
+			from
+				supplier,
+				lineitem,
+				orders,
+				customer,
+				nation n1,
+				nation n2
+			where
+				s_suppkey = l_suppkey
+				and o_orderkey = l_orderkey
+				and c_custkey = o_custkey
+				and s_nationkey = n1.n_nationkey
+				and c_nationkey = n2.n_nationkey
+				and (
+					(n1.n_name = 'GERMANY' and n2.n_name = 'JAPAN')
+					or (n1.n_name = 'JAPAN' and n2.n_name = 'GERMANY')
+				)
+				and l_shipdate between date '1995-01-01' and date '1996-12-31'
+		) as shipping
+	group by
+		supp_nation,
+		cust_nation,
+		l_year
+	order by
+		supp_nation,
+		cust_nation,
+		l_year;
+2014-11-04 22:05:49 UTC [45724]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:49 UTC [45725]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:49 UTC [45726]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:49 UTC [45728]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:49 UTC [45724]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:49 UTC [45725]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:49 UTC [45727]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:05:49 UTC [45728]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:49 UTC [45727]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:49 UTC [45726]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:05:49 UTC [45725]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV);
+2014-11-04 22:05:49 UTC [45724]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:05:49 UTC [45726]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV);
+2014-11-04 22:05:49 UTC [45728]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV);
+2014-11-04 22:05:49 UTC [45727]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:05:49 UTC [45725]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.139 ms
+2014-11-04 22:05:49 UTC [45725]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.009 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:49 UTC [45728]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.258 ms
+2014-11-04 22:05:49 UTC [45728]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:49 UTC [45724]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 10.474 ms
+2014-11-04 22:05:49 UTC [45724]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.014 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:49 UTC [45727]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 11.165 ms
+2014-11-04 22:05:49 UTC [45727]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.014 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:05:49 UTC [45726]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.005 ms
+2014-11-04 22:05:49 UTC [45726]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.017 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:04 UTC [45716]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 18525.545 ms
+2014-11-04 22:06:04 UTC [45716]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:06:04 UTC [45716]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.124 ms
+2014-11-04 22:06:04 UTC [45716]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:18.531 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:04 UTC [45735]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:04 UTC [45735]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:04 UTC [45735]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q7';
+2014-11-04 22:06:04 UTC [45735]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.634 ms
+2014-11-04 22:06:04 UTC [45735]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:04 UTC [45741]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:04 UTC [45741]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:04 UTC [45741]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.Q12', CURRENT_TIMESTAMP);
+2014-11-04 22:06:04 UTC [45741]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.497 ms
+2014-11-04 22:06:04 UTC [45741]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:04 UTC [45743]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:04 UTC [45743]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:04 UTC [45743]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:06:04 UTC [45743]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.168 ms
+2014-11-04 22:06:04 UTC [45743]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: EXPLAIN (ANALYZE, BUFFERS)
+	select
+		l_shipmode,
+		sum(case
+			when o_orderpriority = '1-URGENT'
+				or o_orderpriority = '2-HIGH'
+				then 1
+			else 0
+		end) as high_line_count,
+		sum(case
+			when o_orderpriority <> '1-URGENT'
+				and o_orderpriority <> '2-HIGH'
+				then 1
+			else 0
+		end) as low_line_count
+	from
+		orders,
+		lineitem
+	where
+		o_orderkey = l_orderkey
+		and l_shipmode in ('RAIL', 'SHIP')
+		and l_commitdate < l_receiptdate
+		and l_shipdate < l_commitdate
+		and l_receiptdate >= date '1997-01-01'
+		and l_receiptdate < date '1997-01-01' + interval '1 year'
+	group by
+		l_shipmode
+	order by
+		l_shipmode;
+2014-11-04 22:06:26 UTC [45743]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 21384.264 ms
+2014-11-04 22:06:26 UTC [45743]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:06:26 UTC [45743]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.141 ms
+2014-11-04 22:06:26 UTC [45743]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:21.389 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:26 UTC [45751]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:26 UTC [45751]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:26 UTC [45751]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.Q12';
+2014-11-04 22:06:26 UTC [45751]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.525 ms
+2014-11-04 22:06:26 UTC [45751]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:26 UTC [45755]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:26 UTC [45755]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:26 UTC [45755]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: INSERT INTO time_statistics (task_name, s_time)
+	VALUES ('PERF.POWER.RF2', CURRENT_TIMESTAMP);
+2014-11-04 22:06:26 UTC [45755]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 1.540 ms
+2014-11-04 22:06:26 UTC [45755]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.004 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:26 UTC [45760]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:26 UTC [45760]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:26 UTC [45760]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: BEGIN;
+2014-11-04 22:06:26 UTC [45760]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.167 ms
+2014-11-04 22:06:26 UTC [45760]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: CREATE TEMPORARY TABLE tmp_orderkey2 (orderkey numeric(10));
+2014-11-04 22:06:26 UTC [45760]: [6-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.849 ms
+2014-11-04 22:06:26 UTC [45760]: [7-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY tmp_orderkey2
+	FROM '/home/sekondquad/dbt3/dss/delete.2' USING DELIMITERS '|';
+2014-11-04 22:06:26 UTC [45760]: [8-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 12.577 ms
+2014-11-04 22:06:26 UTC [45760]: [9-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: CREATE INDEX
+	ON tmp_orderkey2 (orderkey);
+2014-11-04 22:06:26 UTC [45760]: [10-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 6.853 ms
+2014-11-04 22:06:26 UTC [45760]: [11-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: ANALYZE tmp_orderkey2;
+2014-11-04 22:06:26 UTC [45760]: [12-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.716 ms
+2014-11-04 22:06:26 UTC [45760]: [13-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: DELETE FROM lineitem
+	USING tmp_orderkey2
+	WHERE l_orderkey = orderkey;
+2014-11-04 22:06:49 UTC [45772]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:49 UTC [45773]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:49 UTC [45772]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:49 UTC [45773]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:49 UTC [45775]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:49 UTC [45774]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:49 UTC [45774]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:49 UTC [45775]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:49 UTC [45776]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:49 UTC [45772]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, seq_scan, seq_tup_read, idx_scan, idx_tup_fetch, n_tup_ins, n_tup_upd, n_tup_del, n_tup_hot_upd, n_live_tup, n_dead_tup, heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit, toast_blks_read, toast_blks_hit, tidx_blks_read, tidx_blks_hit FROM pg_statio_all_tables a, pg_stat_all_tables b WHERE a.relid = b.relid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:06:49 UTC [45773]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, a.schemaname, a.relname, a.indexrelname, idx_scan, idx_tup_read, idx_tup_fetch, idx_blks_read, idx_blks_hit FROM pg_stat_all_indexes a, pg_statio_all_indexes b WHERE a.indexrelid = b.indexrelid) TO STDOUT (FORMAT CSV);
+2014-11-04 22:06:49 UTC [45774]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, numbackends, xact_commit, xact_rollback, blks_read, blks_hit, tup_returned, tup_fetched, tup_inserted, tup_updated, tup_deleted FROM pg_stat_database) TO STDOUT (FORMAT CSV);
+2014-11-04 22:06:49 UTC [45776]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:49 UTC [45775]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, datname, pid, usesysid, usename, application_name, client_addr, client_port, backend_start, xact_start, query_start, waiting, query , state, state_change FROM pg_stat_activity) TO STDOUT (FORMAT CSV);
+2014-11-04 22:06:49 UTC [45776]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COPY (SELECT EXTRACT(EPOCH FROM TRANSACTION_TIMESTAMP()) AS ctime, relname, pid, mode, granted FROM pg_locks, pg_class WHERE relfilenode = relation ORDER BY relname) TO STDOUT (FORMAT CSV);
+2014-11-04 22:06:49 UTC [45775]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.195 ms
+2014-11-04 22:06:49 UTC [45775]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.007 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:49 UTC [45776]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 5.185 ms
+2014-11-04 22:06:49 UTC [45776]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.009 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:49 UTC [45772]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 9.059 ms
+2014-11-04 22:06:49 UTC [45772]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.011 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:49 UTC [45774]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 12.746 ms
+2014-11-04 22:06:49 UTC [45774]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.015 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:49 UTC [45773]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 14.593 ms
+2014-11-04 22:06:49 UTC [45773]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.016 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:49 UTC [45760]: [14-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 23555.671 ms
+2014-11-04 22:06:49 UTC [45760]: [15-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: DELETE FROM orders
+	USING tmp_orderkey2
+	WHERE o_orderkey = orderkey;
+2014-11-04 22:06:56 UTC [45760]: [16-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 7154.520 ms
+2014-11-04 22:06:56 UTC [45760]: [17-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: COMMIT;
+2014-11-04 22:06:56 UTC [45760]: [18-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 0.633 ms
+2014-11-04 22:06:56 UTC [45760]: [19-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:30.745 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:56 UTC [45783]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:56 UTC [45783]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:56 UTC [45783]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER.RF2';
+2014-11-04 22:06:56 UTC [45783]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 4.364 ms
+2014-11-04 22:06:56 UTC [45783]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.008 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:56 UTC [45787]: [1-1] user=[unknown],db=[unknown],client= LOG:  connection received: host=[local]
+2014-11-04 22:06:56 UTC [45787]: [2-1] user=sekondquad,db=dbt3,client=[local] LOG:  connection authorized: user=sekondquad database=dbt3
+2014-11-04 22:06:56 UTC [45787]: [3-1] user=sekondquad,db=dbt3,client=[local] LOG:  statement: UPDATE time_statistics
+	SET e_time = current_timestamp
+	WHERE task_name = 'PERF.POWER';
+2014-11-04 22:06:56 UTC [45787]: [4-1] user=sekondquad,db=dbt3,client=[local] LOG:  duration: 3.025 ms
+2014-11-04 22:06:56 UTC [45787]: [5-1] user=sekondquad,db=dbt3,client=[local] LOG:  disconnection: session time: 0:00:00.006 user=sekondquad database=dbt3 host=[local]
+2014-11-04 22:06:56 UTC [45119]: [2-1] user=,db=,client= LOG:  received smart shutdown request
+2014-11-04 22:06:56 UTC [45124]: [2-1] user=,db=,client= LOG:  autovacuum launcher shutting down
+2014-11-04 22:06:57 UTC [45121]: [1-1] user=,db=,client= LOG:  shutting down
+2014-11-04 22:06:57 UTC [45121]: [2-1] user=,db=,client= LOG:  checkpoint starting: shutdown immediate
+2014-11-04 22:06:57 UTC [45121]: [3-1] user=,db=,client= LOG:  checkpoint complete: wrote 1357 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 648 recycled; write=0.059 s, sync=0.006 s, total=0.084 s; sync files=51, longest=0.002 s, average=0.000 s
+2014-11-04 22:06:57 UTC [45121]: [4-1] user=,db=,client= LOG:  database system is shut down
